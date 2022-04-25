@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+}
+.lifeCycle{
+  margin: 40px;
+  margin-left:40vw;
+
+  
 }
 
 .App-logo {
