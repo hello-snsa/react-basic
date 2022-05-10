@@ -1,0 +1,26 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "user": "test",
+      "email": "test@test.com",
+      "phone": 1234
+    },
+    {
+      "user": "ali",
+      "email": "ali.shahanshah@ril.com",
+      "phone": "2222210000",
+      "id": 2
+    },
+    {
+      "phone": "222221",
+      "id": 3
+    },
+    {
+      "phone": "2222",
+      "user": "name1",
+      "email": "9934072@gmail.com",
+      "id": 4
+    }
+  ]
+}
