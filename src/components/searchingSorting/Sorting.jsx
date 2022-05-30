@@ -8,7 +8,7 @@ export default function Sorting() {
 
   const handleSort = (val) => {
     let newData = user.sort((a, b) => {
-      if (type) {
+      if (asc) {
         return a[val] < b[val] ? -1 : 1;
       } else {
         return a[val] > b[val] ? -1 : 1;
