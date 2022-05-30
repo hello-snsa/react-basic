@@ -1,28 +1,28 @@
 import './App.css';
-import AxiosDelete from './components/AxiosDelete';
-import AxiosEdit from './components/AxiosEdit';
-import AxiosGet from './components/AxiosGet';
-import AxiosPost from './components/AxiosPost';
-import CustomHooks from './components/hooks/CustomHooks';
-import HookUseMemo from './components/hooks/HookUseMemo';
-import Normal from './components/hooks/Normal';
+import FocusInp from './components/hooks/FocusInp';
+import RefComp from './components/hooks/RefComp';
+import Pmain from './components/proptype/Pmain';
+import Filtering from './components/searchingSorting/Filtering';
+import Searching from './components/searchingSorting/Searching';
+import Sorting from './components/searchingSorting/Sorting';
 
 function App() {
   return (
     <div className="App">
 
-      {/* useMemo Hook */}
-      {/* <HookUseMemo /> */}
+      {/* Hooks */}
+      {/* useRef */}
+      {/* <RefComp /> */}
+      {/* forwardRef*/}
+      {/* <FocusInp /> */}
 
-      {/* Custom Hooks */}
-      {/* <Normal /> */}
-      {/* <CustomHooks /> */}
+      {/* Prop type */}
+      {/* <Pmain /> */}
+      {/* npm i prop-types */}
 
-      {/* CRUD operation */}
-      {/* <AxiosGet /> */}
-      {/* <AxiosPost /> */}
-      {/* <AxiosDelete /> */}
-      {/* <AxiosEdit /> */}
+      {/* <Searching /> */}
+      <Sorting />
+      {/* <Filtering /> */}
     </div>
   );
 }

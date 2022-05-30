@@ -22,5 +22,60 @@
       "email": "9934072@gmail.com",
       "id": 4
     }
+  ],
+  "companyData": [
+    {
+      "name": "Qalara-implAI-Home and Decor",
+      "image": "https://euimg.eworldtrade.com/uploads/company_images/logo/8/4/company-l-key-1297469-1600513256-md.png",
+      "alt": "logo of Qalara-implAI-Home and Decor",
+      "version": "1.0",
+      "EndPoint": "https://qalara-implai-prod.qalara.com:8002/qalara_auto_suggest?prefix=",
+      "Thumbnail": "Hardcode",
+      "Features": "",
+      "template": "listTemplate",
+      "spell": false,
+      "popularity": false
+    },
+    {
+      "name": "implAI-Home and Decor",
+      "image": "https://euimg.eworldtrade.com/uploads/company_images/logo/8/4/company-l-key-1297469-1600513256-md.png",
+      "alt": "logo of implAI-Home and Decor",
+      "version": "2.0",
+      "EndPoint": "http://10.168.134.171:32001/qalara_auto_suggest?prefix=",
+      "Thumbnail": "Hardcode",
+      "Features": {
+        "popularity": false,
+        "pincode": true
+      },
+      "template": "listWithImageTemplate",
+      "spell": false,
+      "popularity": false,
+      "pincode": true
+    },
+    {
+      "name": "Reliance-Digital",
+      "image": "https://pbs.twimg.com/profile_images/646260852719419392/Ar3oqF39_400x400.png",
+      "alt": "logo of Reliance-Digital",
+      "version": "1.0",
+      "EndPoint": "https://www.reliancedigital.in/rildigitalws/v2/rrldigital/products/suggestions?term=",
+      "Thumbnail": "Hardcode",
+      "Features": "",
+      "template": "DigitalListTemplate",
+      "spell": false,
+      "popularity": false,
+      "pincode": true
+    },
+    {
+      "name": "implAI-Digital",
+      "image": "https://pbs.twimg.com/profile_images/646260852719419392/Ar3oqF39_400x400.png",
+      "alt": "logo of implAI-Digital",
+      "version": "0.1",
+      "EndPoint": "http://10.168.134.166:32001/digital_auto_suggest?prefix=",
+      "Thumbnail": "Hardcode",
+      "Features": "",
+      "template": "DigitalListTemplateV2",
+      "spell": false,
+      "popularity": false
+    }
   ]
 }
